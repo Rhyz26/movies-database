@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #131720;
+    font-family: sans-serif;
+}
+h3{
+    color:white;
+}
+
+.topnav{
+    overflow: hidden;
+    padding:10px;
+    background-color: #131720;
+}
+.topnav a{
+    float:left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.topnav .search-container{
+    float:right;
+}
+form{
+    background-color: #151f30;
+}
+
+input{
+    all:unset;
+    font:15px system ui;
+    color:#fff;
+    height:100%;
+    width:100%;
+    padding:6px 9px;
+}
+.thumbnail{
+    height:350px;
+    width:300px;
+    border-radius:19px;
+}
+.column{
+    width:25%;
+    padding:10px 10px;
+    float:left;
+
+}
+.card{
+    text-align: center;
+    border-radius: 19px;
+    padding:15px;
+    background-color:#151f30;
+}
